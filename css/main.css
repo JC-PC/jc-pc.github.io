@@ -361,7 +361,7 @@ html{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 20px;
+
 }
 
 #a-left{
@@ -493,10 +493,6 @@ html{
 	text-align: center;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 #contact-info{
 	width: 100%;
 }
@@ -508,4 +504,25 @@ html, body {
 	display: inline;
 	float: right;
 	margin-right: 20px;
+}
+.error {
+    width:100%;
+    height:20px;
+    height:auto;
+    bottom:0px;
+    background-color: #BF1363;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    position: fixed;
+
+}
+#qq{
+margin: 20px;
 }
