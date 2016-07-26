@@ -1,5 +1,7 @@
 var pos = 1;
 $(document).ready(function(){
+	$('.error').fadeIn(400).delay(3000).fadeOut(400); //fade out after 3 seconds
+	
 	$("#header-contact").click(function(){
 		$("html, body").animate({ scrollTop: ($("#contact-bar").offset().top) });
 	});
