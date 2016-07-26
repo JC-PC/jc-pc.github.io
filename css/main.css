@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -218,7 +218,6 @@ body{
 
 #about{
 	width: 100%;
-	height: 600px;
 	background-color: #222;
 }
 
@@ -233,7 +232,6 @@ body{
 
 #contact{
 	width: 100%;
-	height: 800px;
 	background-color: #222;
 }
 
@@ -242,7 +240,7 @@ body{
 }
 
 #footer{
-	height: 100px;
+	height: 258px;
 	background-color: black;
 	width: 100%;
 }
@@ -358,14 +356,156 @@ html{
 	background-position: center;
 	background-size: 100%;
 }
-#flag{
-	height: 100px;
-	width: auto;
 
+#prebuilt{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 20px;
+}
+
+#a-left{
+	margin: 0px;
+	padding: 20px;
 	display: inline-block;
 }
+
+#a-left p{
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+#a-right{
+	width: 317px;
+	text-align: center;
+	padding-top: 20px;
+	background-image: url("../images/inside.jpg");
+	background-size: 30%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#about-logo{
+	margin: auto;
+	display: inline;
+	padding-bottom: 20px;
+}
+#jcpc-info td{
+	vertical-align: middle;
+}
+
+#process-bar{
+	background-color: #006099;
+}
+#jcpc-info{
+	padding-bottom: 20px;
+}
+#process-table{
+	table-layout: fixed;
+	width: 100%;
+}
+.leftp{
+	width: 50%;
+	display: inline-block;
+}
+.rightp{
+	width: 50%;
+	display: inline-block;
+}
+.contactcolor{
+	color: #BF1363;
+}
+#mailicon{
+	float: right;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+}
+#general-process-info{
+	padding:20px;
+}
+#process-table td{
+	margin-bottom: 20px;
+}
+#wrap{
+		background-image: url("../images/blur.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 10px;
+}
+#ww{
+	margin-top: -15px;
+}
+.platform{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: #e6e6e6;
+	-webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.75);
+
+-webkit-transition: background 0.25s linear;
+    -moz-transition: background 0.25s linear;
+    -ms-transition: background 0.25s linear;
+    -o-transition: background 0.25s linear;
+    transition: background 0.25s linear;
+}
+.platform-table-item{
+	width: 33%;
+	font-size: 100px;
+	text-align: center;
+	margin: auto;
+}
+.platform:hover{
+	background-color: #B3B3B3;
+}
+#platform-holder{
+	width: 100%;
+	text-align: center;
+}
+.platform{
+		margin: auto;
+		margin-top: 25px; 
+		margin-bottom: 35px;
+}
+.pi{
+	font-size: 100px;
+	vertical-align: middle;
+	margin-top: 45px;
+	color: black;
+}
+
+#tri{
+	padding-left: 15%; 
+}
+.contactH1{
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.contactH2{
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#contact-info{
+	width: 100%;
+}
 #based{
-	line-height: 100px;
-	font-size: 20px;
-	width:50%;
+	padding: 30px;
+	width: 50%;
+}
+#footer-logo{
+	display: inline;
+	float: right;
+	margin-right: 20px;
 }
